@@ -1,4 +1,4 @@
-# Softwar PWM
+# Software PWM
 
 This lab was meant to introduce us to the application of pulse width modulation on an LED. In doing so, we see that each time we press the button, the brightness increases, until 10 button presses, it goes to 0 (off).
 
