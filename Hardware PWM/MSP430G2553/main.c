@@ -32,7 +32,7 @@ int main(void)
     TA0CCR0 = 1000;       //Duty Cycle 100%
     TA0CCTL1 = OUTMOD_7;  //Timer Output Mode
     TA0CCR1 = duty;       //Duty Cycle = 50% to start
-    TA0CTL = TASSEL_2 + MC_1; //Timer Instantiation
+    TA0CTL = TASSEL_2 + MC_1; //Timer Instantiation up mode
 
      __bis_SR_register(LPM0_bits + GIE);  //enters lowpowermode0 w/ interrupt
     }
